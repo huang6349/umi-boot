@@ -9,7 +9,7 @@
     "precommit": "lint-staged"
   },
   "dependencies": {
-    "antd": "^3.18.1",
+    "antd": "^3.20.7",
     "dva": "^2.4.1",
     "dva-core": "^1.4.0",
     "keyboardjs": "^2.5.1",
@@ -20,7 +20,7 @@
     "prop-types": "^15.6.2",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
-    "react-use": "^9.0.0",
+    "react-use": "^10.3.0",
     "rebound": "^0.1.0",
     "redux": "^3.7.2",
     "sockette": "^2.0.5"
