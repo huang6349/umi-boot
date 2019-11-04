@@ -21,7 +21,7 @@
     "prop-types": "^15.6.2",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
-    "react-use": "^10.3.0",
+    "react-use": "^12.13.0",
     "rebound": "^0.1.0",
     "redux": "^3.7.2",
     "sockette": "^2.0.5"
