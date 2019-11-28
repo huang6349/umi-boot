@@ -9,14 +9,7 @@ export default {
         },
         antd: true,
         routes: {
-          exclude: [
-            /components\//,
-            /hooks\//,
-            /models\//,
-            /services\//,
-            /model\.(t|j)sx?$/,
-            /service\.(t|j)sx?$/,
-          ],
+          exclude: [/components\//, /hooks\//, /models\//, /services\//, /model\.(t|j)sx?$/, /service\.(t|j)sx?$/],
         },
         locale: {},
         dynamicImport: {
@@ -41,9 +34,6 @@ export default {
     '@table-padding-horizontal': '12px',
   },
   extraBabelPlugins: [
-    [
-      'import',
-      { libraryName: 'react-use', libraryDirectory: 'lib', camel2DashComponentName: false },
-    ],
+    ['import', { libraryName: 'react-use', libraryDirectory: 'lib', camel2DashComponentName: false }],
   ],
 };
