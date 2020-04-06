@@ -9,7 +9,9 @@
     "precommit": "lint-staged"
   },
   "dependencies": {
-    "antd": "4.1.0",
+    "@ant-design/icons": "4.0.5",
+    "@ant-design/pro-layout": "5.0.9",
+    "antd": "4.1.1",
     "classnames": "^2.2.6",
     "dayjs": "^1.8.23",
     "dva": "2.6.0-beta.20",
@@ -18,7 +20,7 @@
     "lodash": "^4.17.11",
     "moment": "^2.24.0",
     "nprogress": "0.2.0",
-    "path-to-regexp": "6.1.0",
+    "path-to-regexp": "2.4.0",
     "prop-types": "15.7.2",
     "qs": "6.9.1",
     "react": "16.13.1",
@@ -26,7 +28,7 @@
     "react-router": "5.1.2",
     "react-use": "13.27.1",
     "redux": "4.0.5",
-    "umi": "3.0.16"
+    "umi": "3.0.18"
   },
   "devDependencies": {
     "@types/nprogress": "0.2.0",
