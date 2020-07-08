@@ -142,12 +142,13 @@ $RECYCLE.BIN/
 !.vscode/launch.json
 !.vscode/extensions.json
 
+# production
+dist/
+
 # umi
-.umi
-.umi-production
-.umi-test
+.umi/
+.umi-production/
+.umi-test/
 .umirc.local.js
 .umirc.local.ts
-
-# production
-dist
+.env.local

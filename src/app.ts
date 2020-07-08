@@ -7,7 +7,7 @@ export const request: RequestConfig = {
     async (ctx, next) => {
       NProgress.start();
       NProgress.inc();
-      next();
+      await next();
       NProgress.done();
     },
   ],

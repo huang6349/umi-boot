@@ -14,5 +14,6 @@
       "@@/*": ["src/.umi/*"]
     },
     "allowSyntheticDefaultImports": true
-  }
+  },
+  "include": ["mock/**/*", "src/**/*", "config/**/*", ".umirc.ts", "typings.d.ts"]
 }

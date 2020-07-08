@@ -21,4 +21,7 @@ export default defineConfig({
   extraBabelPlugins: [
     ['import', { libraryName: 'react-use', libraryDirectory: 'lib', camel2DashComponentName: false }],
   ],
+  nodeModulesTransform: {
+    type: 'none',
+  },
 });
