@@ -27,7 +27,7 @@ node >= 10.13.0
 ```bash
 $ npm install -g yarn tyarn
 $ tyarn -v
-& tyarn install
+$ tyarn install
 ```
 
 Usage
