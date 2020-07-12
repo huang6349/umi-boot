@@ -13,7 +13,9 @@ Table of Contents
 [目录]
 
 * [Install[安装依赖]](#install)
-* [Usage[用法]](#usage)
+* [Usage[使用方法]](#usage)
+* [Links[教程链接]](#links)
+* [Thank[致谢]](#thank)
 * [License[开源协议]](#license)
 
 Install
@@ -32,7 +34,7 @@ $ tyarn install
 
 Usage
 -------
-[用法]
+[使用方法]
 
 #### development[开发环境]
 
@@ -55,6 +57,20 @@ $ yarn run build # build
 ```bash
 $ yarn run analyze # analyze
 ```
+
+Links
+-------
+[教程链接]
+
+* [Microsoft/TypeScript](https://github.com/Microsoft/TypeScript)
+* [facebook/react](https://github.com/facebook/react)
+* [dvajs/dva](https://github.com/dvajs/dva)
+* [ant-design/ant-design](https://github.com/ant-design/ant-design)
+
+Thank
+-------
+[致谢]
+* [sorrycc](https://github.com/sorrycc)
 
 License
 -------
