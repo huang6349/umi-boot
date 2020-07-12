@@ -60,6 +60,7 @@ $ yarn run analyze
 
 * [Microsoft/TypeScript](https://github.com/Microsoft/TypeScript)
 * [facebook/react](https://github.com/facebook/react)
+* [umijs/umi](https://github.com/umijs/umi)
 * [dvajs/dva](https://github.com/dvajs/dva)
 * [ant-design/ant-design](https://github.com/ant-design/ant-design)
 
