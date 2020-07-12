@@ -39,11 +39,11 @@ Usage
 #### development[开发环境]
 
 ```bash
-$ yarn run start # with mock
+$ yarn run start
 ```
 
 ```bash
-$ yarn run start:no-mock # no mock
+$ yarn run start:no-mock
 ```
 
 访问：[http://127.0.0.1:8000](http://127.0.0.1:8000)
@@ -51,11 +51,11 @@ $ yarn run start:no-mock # no mock
 #### production[生产环境]
 
 ```bash
-$ yarn run build # build
+$ yarn run build
 ```
 
 ```bash
-$ yarn run analyze # analyze
+$ yarn run analyze
 ```
 
 Links
