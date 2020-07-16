@@ -16,13 +16,4 @@ export default defineConfig({
     ie: 11,
   },
   title: 'basic-project-template',
-  antd: {
-    compact: true,
-  },
-  dva: {
-    immer: true,
-  },
-  locale: {
-    antd: true,
-  },
 });
