@@ -53,10 +53,10 @@
     insert-css "^2.0.0"
     rc-util "^5.0.1"
 
-"@ant-design/pro-layout@5.0.17":
-  version "5.0.17"
-  resolved "https://registry.yarnpkg.com/@ant-design/pro-layout/-/pro-layout-5.0.17.tgz#d9baf216db3dfccfd0e582885a3cb717f79fe258"
-  integrity sha512-GzP5JcLvaxB4x+8VN6x7kiP0TBeOfmnf90nQ2uMyWB72UOWReSr4gsD36l9pkB96DoJhfVTI8erAT1dcjYs3VA==
+"@ant-design/pro-layout@5.0.19":
+  version "5.0.19"
+  resolved "https://registry.npm.taobao.org/@ant-design/pro-layout/download/@ant-design/pro-layout-5.0.19.tgz?cache=0&sync_timestamp=1594715223513&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2F%40ant-design%2Fpro-layout%2Fdownload%2F%40ant-design%2Fpro-layout-5.0.19.tgz#d15e8dc10d7e7be7da1978e166f1ff016ad98e4e"
+  integrity sha1-0V6NwQ1+e+faGXjhZvH/AWrZjk4=
   dependencies:
     "@ant-design/icons" "^4.0.0"
     "@umijs/route-utils" "^1.0.5"
