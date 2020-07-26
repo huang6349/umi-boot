@@ -12,13 +12,13 @@ NProgress.configure({
 
 export default <NProgressType>{
   isNProgress: !1,
-  start: function() {
+  start() {
     if (this.isNProgress) return;
     this.isNProgress = !0;
     NProgress.start();
     NProgress.inc();
   },
-  done: function() {
+  done() {
     this.isNProgress = !1;
     NProgress.done();
   },
