@@ -1,2 +1,2 @@
+export { default as Nprogress } from './nprogress';
 export { default as delay } from './delay';
-export { default as nprogress } from './nprogress';

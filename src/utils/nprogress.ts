@@ -1,18 +1,25 @@
 import NProgress from 'nprogress';
-import 'nprogress/nprogress.css';
 
-let isNProgress = !1;
-
-export function start() {
-  if (isNProgress) return;
-  isNProgress = !0;
-  NProgress.start();
-  NProgress.inc();
+interface NProgressType {
+  isNProgress: boolean;
+  start: () => {};
+  done: () => {};
 }
 
-export function done() {
-  isNProgress = !1;
-  NProgress.done();
-}
+NProgress.configure({
+  showSpinner: !1,
+});
 
-export default { start, done };
+export default <NProgressType>{
+  isNProgress: !1,
+  start: function() {
+    if (this.isNProgress) return;
+    this.isNProgress = !0;
+    NProgress.start();
+    NProgress.inc();
+  },
+  done: function() {
+    this.isNProgress = !1;
+    NProgress.done();
+  },
+};

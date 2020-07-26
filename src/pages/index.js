@@ -1,8 +1,9 @@
-import * as React from 'react';
 import { Typography } from 'antd';
 
+const Text = Typography.Text;
+
 const IndexPage = () => {
-  return <Typography.Text>Hello, Basic Project Template</Typography.Text>;
+  return <Text>Hello, Basic Project Template</Text>;
 };
 
 export default IndexPage;

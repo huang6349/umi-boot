@@ -1,15 +1,15 @@
-import { nprogress } from '@/utils';
+import { Nprogress } from '@/utils';
 
 export default {
   requestInterceptors: [
     function interceptorNprogress(url, options) {
-      nprogress.start();
+      Nprogress['start']();
       return { url, options };
     },
   ],
   responseInterceptors: [
     function interceptorNprogress(response) {
-      nprogress.done();
+      Nprogress['done']();
       return response;
     },
   ],
